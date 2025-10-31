@@ -1,41 +1,28 @@
-# Prerequisites
-*.d
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
 
-# Compiled Object files
-*.slo
-*.lo
+# C/C++
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.a
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+example
 *.exe
-*.out
-*.app
 
-# debug information files
-*.dwo
+# Generated header files
+include/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+

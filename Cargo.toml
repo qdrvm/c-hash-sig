@@ -1,0 +1,16 @@
+[package]
+name = "pq-bindings-c-rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+hashsig = { git = "https://github.com/b-wagn/hash-sig" }
+rand = "0.9"
+bincode = { version = "2.0.1", features = ["serde"] }
+
+[build-dependencies]
+cbindgen = "0.27"
+
